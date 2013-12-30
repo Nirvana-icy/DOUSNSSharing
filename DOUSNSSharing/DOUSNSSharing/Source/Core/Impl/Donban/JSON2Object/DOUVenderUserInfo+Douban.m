@@ -23,7 +23,7 @@ static NSString *const kDOUVenderDoubanPostKeyScreenName = @"douban_user_name";
     
     object = [jsonDic objectForKey:kDOUVenderDoubanPostKeyScreenName];
     if (IS_INSTANCE_OF(object, NSString)) {
-      self.screeNname = object;
+      self.screenName = object;
       self.name = object;
     }
   } @catch (NSException *exception) {
